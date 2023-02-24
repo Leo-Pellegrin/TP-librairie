@@ -77,7 +77,7 @@
       #formAdd{
         margin-top: 5em;
         margin-bottom: 35em;
-        height: 120%;
+        height: 80%;
       }
       #formAdd h1{
         margin-bottom: 2.5em;

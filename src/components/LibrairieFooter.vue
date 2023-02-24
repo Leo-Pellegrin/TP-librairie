@@ -12,15 +12,14 @@
     <div id="footer">
         <hr>
         <div id="logo">
-            <img src="../img/linkedin.png"/>
-            <img src="../img/Logo-Instagram-noir-1.webp"/>
-            <img src="../img/logo-twitter-noir.png"/>
-            <img src="../img/yt-logo.jpg"/>   
+            <a href=""><img src="../img/linkedin.png"/></a>
+            <a href=""><img src="../img/Logo-Instagram-noir-1.webp"/></a>
+            <a href=""><img src="../img/logo-twitter-noir.png"/></a>
+            <a href=""><img src="../img/youtube_logo_icon_144714.png"/></a>
         </div>
         <div id="contact">
-            <p href="tel:">Téléphone</p>
-            
-            <p href="mail:leo.pellegrin@etud.univ-jfc.fr">Mail</p>
+            <a href="tel:+33781794004">Téléphone</a> 
+            <a href="mailto:mapetitelibrairie@leo-pellegrin.fr">E-Mail</a>
         </div>
     </div>
      
@@ -49,20 +48,30 @@
     #logo{
         display: flex;
         justify-content: center;
+        margin-top: 1em;
     }
     #contact{
         display: flex;
         justify-content: center;
     }
-    #contact p{
+    #contact a{
+        margin-top: 1em;
         margin-right: 1em;
+        color: black;
+        padding: 0.5em;
+
+    }
+    #contact:hover a {
+        color: white;
+        background-color: #C58940;
+        border-radius: 3em;
     }
     hr{
+        position: fixed;
         width: 100%;
-        height: 5%;
+        height: 1%;
         border: solid 1px #FAEAB1;
         background-color: #FAEAB1;
-        margin-top: -15px;
-        margin-bottom: 2em;
+        margin-bottom: 7.5em;
     }
 </style>

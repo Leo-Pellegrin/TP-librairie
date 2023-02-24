@@ -48,11 +48,13 @@
         display: flex;
         white-space: nowrap;
         align-items: center;
+        transition: color 2s;
     }
     #header a:hover{
         background-color: #C58940;
         color: white;
         border-radius: 20%;
+        transition: background-color 1s, color 1s;
     }
     #header img{
         height: 50px;
@@ -80,10 +82,6 @@
         white-space: nowrap;
         box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     }
-    #addBtn :hover{
-        
-    }
-   
   /* https://colorhunt.co/palette/faf8f1faeab1e5ba73c58940 */
   </style>
 
